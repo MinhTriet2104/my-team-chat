@@ -1,0 +1,54 @@
+[debug] [2019-04-21T08:04:07.766Z] ----------------------------------------------------------------------
+[debug] [2019-04-21T08:04:07.769Z] Command:       D:\NodeJS\node.exe C:\Users\MT\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2019-04-21T08:04:07.769Z] CLI Version:   6.7.0
+[debug] [2019-04-21T08:04:07.769Z] Platform:      win32
+[debug] [2019-04-21T08:04:07.769Z] Node Version:  v11.10.1
+[debug] [2019-04-21T08:04:07.770Z] Time:          Sun Apr 21 2019 15:04:07 GMT+0700 (GMT+07:00)
+[debug] [2019-04-21T08:04:07.770Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-04-21T08:04:07.781Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-04-21T08:04:07.781Z] > authorizing via signed-in user
+[debug] [2019-04-21T08:04:07.781Z] [iam] checking project my-team-chat for permissions ["firebase.projects.get"]
+[debug] [2019-04-21T08:04:07.786Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/my-team-chat:testIamPermissions  
+
+[debug] [2019-04-21T08:04:08.941Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-21T08:04:08.944Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/my-team-chat  
+ 
+[debug] [2019-04-21T08:04:10.035Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'D:\NodeJS project\MyTeam Chat'...
+[info] 
+[debug] [2019-04-21T08:04:10.035Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/422732498588/clients/_:getWebAppConfig  
+ 
+[debug] [2019-04-21T08:04:10.871Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+[debug] [2019-04-21T12:15:34.185Z] ----------------------------------------------------------------------
+[debug] [2019-04-21T12:15:34.188Z] Command:       D:\NodeJS\node.exe C:\Users\MT\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2019-04-21T12:15:34.188Z] CLI Version:   6.7.0
+[debug] [2019-04-21T12:15:34.188Z] Platform:      win32
+[debug] [2019-04-21T12:15:34.188Z] Node Version:  v11.10.1
+[debug] [2019-04-21T12:15:34.189Z] Time:          Sun Apr 21 2019 19:15:34 GMT+0700 (GMT+07:00)
+[debug] [2019-04-21T12:15:34.189Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-04-21T12:15:34.200Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-04-21T12:15:34.202Z] > authorizing via signed-in user
+[debug] [2019-04-21T12:15:34.202Z] [iam] checking project my-team-chat for permissions ["firebase.projects.get"]
+[debug] [2019-04-21T12:15:34.204Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-04-21T12:15:34.205Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2019-04-21T12:15:34.524Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-21T12:15:34.547Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/my-team-chat:testIamPermissions  
+
+[debug] [2019-04-21T12:15:35.661Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-21T12:15:35.662Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/my-team-chat  
+ 
+[debug] [2019-04-21T12:15:36.779Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'D:\NodeJS project\MyTeam Chat'...
+[info] 
+[debug] [2019-04-21T12:15:36.784Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/422732498588/clients/_:getWebAppConfig  
+ 
+[debug] [2019-04-21T12:15:37.341Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
